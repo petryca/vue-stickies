@@ -5,15 +5,9 @@ Vue.createApp({
         }
     },
     mounted() {
-        // localStorage.clear();
         if ('stickies' in localStorage) {
             this.stickies = JSON.parse(localStorage.getItem('stickies'));
         }
-
-        window.addEventListener('keyup', () => {
-            let data = JSON.stringify(this.stickies);
-            localStorage.setItem('stickies', data);
-        });
     },
     methods: {
         addStickie() {
@@ -30,6 +24,14 @@ Vue.createApp({
             const indx = colors.indexOf(currentColor);
             const newColorIndx = (indx + 1) % colors.length;
             this.stickies[index].color = colors[newColorIndx];
+        }
+    },
+    watch: {
+        stickies: {
+            handler(newVal) {
+                localStorage.setItem('stickies', JSON.stringify(newVal));
+            },
+            deep: true
         }
     }
 }).mount('#app')
