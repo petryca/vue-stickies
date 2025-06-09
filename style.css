@@ -14,9 +14,7 @@ body {
   color: #666;
   margin: 0;
   padding: 0;
-  background-color: #dfd6bf;
   background-color: #555;
-  /* background-color: #2b2631; */
 }
 
 main {
@@ -59,6 +57,11 @@ button {
   align-items: center;
   justify-content: center;
   height: 12rem;
+  transition: all 0.3s;
+}
+
+button:hover {
+  border-color: #fff;
 }
 
 button>svg {
@@ -79,9 +82,8 @@ textarea {
   display: block;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   position: relative;
-  /* background-color: #fcfa5d; */
   padding: 1rem;
-  flex-basis: 20%;
+  height: 12rem;
   transition: all 0.3s;
   border-width: 0;
   resize: none;
@@ -89,8 +91,19 @@ textarea {
   font: inherit;
   color: inherit;
   line-height: inherit;
+  cursor: text;
 }
 
 textarea:focus {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+textarea.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+}
+
+textarea.drag-over {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
