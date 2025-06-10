@@ -1,6 +1,6 @@
 # Vue Stickies AI Improvement Challenge
 
-This code contains the complete Vue Stickies front-end app from the previous assignment. Your challenge is to implement the UI improvements listed below. Use an AI tool to help you with this.
+This code contains Vue Stickies front-end app from the previous assignment. Your challenge is to implement User Iterface improvements listed below. Use an AI tool to help you with this. Develop, test and iterate until you achive the desired functionality.
 
 1. Move the PLUS button to the end of the stickies array
 2. When the app opens for the first time, make sure there is one taxtarea that exists.
@@ -9,4 +9,5 @@ This code contains the complete Vue Stickies front-end app from the previous ass
 5. New note is created with random color
 6. The placeholder text appears only on the FIRST textarea
 7. Format the placeholder text into bullet points (use \n for newline)
+8. Use left and right arrow keys to navigate between textareas
 
