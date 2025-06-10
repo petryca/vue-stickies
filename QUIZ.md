@@ -57,59 +57,27 @@ Create a new file called `answers.md` and answer the following questions based o
 
 ---
 
-## Section C: Advanced Vue.js & State Management (Questions 25-37)
+## Section C: Framework Comparisons & Modern Frontend (Questions 38-47)
 
-25. What is Vuex/Pinia and why would you use state management in a Vue application?
+24. Compare Vue.js with Svelte: What are the main philosophical differences between these frameworks?
 
-26. Write a Pinia store with state, getters, and actions for managing a shopping cart.
+25. How does Svelte's approach to component architecture differ from Vue's?
 
-27. Explain Vue Router and write code to set up basic routing with two routes.
+26. Write equivalent code in both Vue and Svelte that renders a list of items with click handlers.
 
-28. What are Vue slots and how do they enable component composition? Provide an example.
+27. What are the advantages and disadvantages of Single Page Applications (SPAs)?
 
-29. Write a Vue custom directive that automatically focuses an input element when inserted.
+28. What is hydration in the context of SSR frameworks like Nuxt.js or SvelteKit?
 
-30. What is the purpose of `ref()` and `reactive()` in Vue 3's Composition API?
+29. Explain micro-frontends architecture and its pros and cons compared to monolithic SPAs.
 
-31. How do you optimize Vue component performance? Name three techniques.
+30. What are Progressive Web Apps (PWAs) and how can you make a Vue application into a PWA?
 
-32. Write a Vue composable function that manages a toggle state (true/false) with a method to flip it.
+31. Compare client-side routing vs server-side routing. When would you choose each approach?
 
-33. What is the difference between shallow and deep reactivity in Vue 3?
+32. What is the difference between static site generation (SSG) and server-side rendering (SSR)?
 
-34. Explain Vue's `nextTick()` function and when you would use it.
-
-35. Write code to implement lazy loading of components in Vue Router.
-
-36. What are provide/inject in Vue and how do they solve prop drilling?
-
-37. How do you handle asynchronous operations in Vue components? Show an example with async/await.
-
----
-
-## Section D: Framework Comparisons & Modern Frontend (Questions 38-47)
-
-25. Compare Vue.js with Svelte: What are the main philosophical differences between these frameworks?
-
-26. How does Angular's approach to component architecture differ from Vue's?
-
-27. Write equivalent code in both Vue and Svelte that renders a list of items with click handlers.
-
-28. What is the Virtual DOM and how do Vue, React, and Angular handle DOM updates differently?
-
-29. What are the advantages and disadvantages of Single Page Applications (SPAs)?
-
-30. What is hydration in the context of SSR frameworks like Nuxt.js or SvelteKit?
-
-31. Explain micro-frontends architecture and its pros and cons compared to monolithic SPAs.
-
-32. What are Progressive Web Apps (PWAs) and how can you make a Vue application into a PWA?
-
-33. Compare client-side routing vs server-side routing. When would you choose each approach?
-
-34. What is the difference between static site generation (SSG) and server-side rendering (SSR)?
-
-35. What are the key benefits of using a component-based architecture in modern web development?
+33. What are the key benefits of using a component-based architecture in modern web development?
 
 ---
 
